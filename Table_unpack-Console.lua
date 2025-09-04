@@ -3,7 +3,7 @@ rconsoleclear()
 getgenv().serializeTable = function(val, key, inline, level)
     inline = inline or false
     level = level or 0
-    local tab = string.rep("    ", level)   -- vroeger 'indent'
+    local tab = string.rep("    ", level)
     if key then tab = tab .. key .. " = " end
 
     if type(val) == "table" then
