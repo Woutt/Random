@@ -1,6 +1,7 @@
 # i made this for a minecraft game that called scufflemc and every 10 min there is a quest in the chat where you can get alot of money from in game
 # i was in a server with 800+ players always the winner and the devs/admins didnt know or care
 # richest player in the server ez
+# (you need to export the messages from chat though)
 
 # imports
 import re
